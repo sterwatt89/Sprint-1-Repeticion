@@ -1,7 +1,7 @@
-* {
+ * {
   margin:0;
   padding:0;
-}
+   }
 
 
 
@@ -14,20 +14,19 @@ align-items: center;
 
 background-image: url(../images/foto-hero.jpeg);
 background-position: center top;
-
+padding-left: 20px;
+box-sizing: border-box;
 }
 
 
 body{
-  font:30px 'Rubik', sans-serif;
+
   margin:0;
 }
 
 .contenedor-hijo {
   width: 161px;
   height: 108px;
-  margin-left: 20px;
-
 
 }
 
@@ -38,7 +37,7 @@ body{
   font-weight:bold;
   color:#ffff;
   font-size: 30px;
-
+  font-family: 'Rubik', sans-serif;
 
 
 }
@@ -50,7 +49,7 @@ body{
     font-size: 60px;
 
   }
-  .contenedor-hijo{
-    margin-left: 30px;
+  .hero{
+    padding-left: 30px;
   }
 }
