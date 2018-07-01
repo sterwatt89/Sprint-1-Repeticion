@@ -5,7 +5,7 @@
 
 .footer-cierre {
   height: 90px;
-  background-color: #252525;
+  background-color: $color_footer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,5 +13,5 @@
 
 .cierre {
   font-size: 16px;
-  color: #676a6d;
+  color: $color_footer_letter;
 }
