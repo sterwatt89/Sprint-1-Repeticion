@@ -26,7 +26,7 @@ body{
 .contenedor-hijo {
   width: 161px;
   height: 108px;
-  margin: 20px;
+  margin-left: 20px;
 
 
 }
@@ -38,11 +38,19 @@ body{
   font-weight:bold;
   color:#ffff;
   font-size: 30px;
-  margin-left: 20px;
 
-  // top:129px;
-  // right: 108px;
-  // left:20px;
-  // bottom:129px;
-  // position: absolute;
+
+
+}
+
+
+@media all and (min-width:768px) {
+
+  .titulo-principal {
+    font-size: 60px;
+
+  }
+  .contenedor-hijo{
+    margin-left: 30px;
+  }
 }
