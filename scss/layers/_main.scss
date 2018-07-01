@@ -7,10 +7,11 @@
 
 .hero {
 
-background-size: cover;
-height: 100vh;
+background-size: 170% 100%;
+height: 70vh;
 display:flex;
 align-items: center;
+margin-top: 112px;
 
 background-image: url(../images/foto-hero.jpeg);
 background-position: center top;
@@ -51,5 +52,8 @@ body{
   }
   .hero{
     padding-left: 30px;
+    height: 834px;
+    background-size: cover;
+    background-position: center top;
   }
 }
