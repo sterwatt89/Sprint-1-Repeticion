@@ -34,6 +34,16 @@
   text-transform: uppercase;
   color: #4a4a4a;
   font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  -webkit-transition: color ease 1s, -webkit-text-decoration ease 1s;
+  transition: color ease 1s, -webkit-text-decoration ease 1s;
+  transition: color ease 1s, text-decoration ease 1s;
+  transition: color ease 1s, text-decoration ease 1s, -webkit-text-decoration ease 1s;
+}
+
+.menu-link:hover {
+  color: #32decf;
+  text-decoration: underline;
 }
 
 .menu-item:last-child {
