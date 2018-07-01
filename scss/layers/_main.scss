@@ -2,3 +2,47 @@
   margin:0;
   padding:0;
 }
+
+
+
+.hero {
+
+background-size: cover;
+height: 100vh;
+display:flex;
+align-items: center;
+
+background-image: url(../images/foto-hero.jpeg);
+background-position: center top;
+
+}
+
+
+body{
+  font:30px 'Rubik', sans-serif;
+  margin:0;
+}
+
+.contenedor-hijo {
+  width: 161px;
+  height: 108px;
+  margin: 20px;
+
+
+}
+
+.titulo-principal{
+
+  word-spacing: 100vw;
+  text-align: left;
+  font-weight:bold;
+  color:#ffff;
+  font-size: 30px;
+  margin-left: 20px;
+
+  // top:129px;
+  // right: 108px;
+  // left:20px;
+  // bottom:129px;
+  // position: absolute;
+}

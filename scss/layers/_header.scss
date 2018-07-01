@@ -2,3 +2,46 @@
   margin:0;
   padding:0;
 }
+
+.page-header {
+padding:10px 0 13px;
+text-align: center;
+width: 100%;
+position:fixed;
+left:0;
+top:0;
+background: white;
+height: 112px;
+
+}
+.logo {
+  height: 60px;
+}
+.menu{
+list-style: none;
+margin:0;
+padding:0;
+
+}
+.menu-item {
+
+
+  margin-right:20px;
+
+}
+
+.menu-link {
+text-decoration: none;
+text-transform: uppercase;
+color: #4a4a4a;
+font-size: 16px;
+display:inline;
+}
+
+.menu-item:last-child{
+  margin-right: 0;
+}
+
+.logo-adalab {
+  margin-top: 10px;
+}
